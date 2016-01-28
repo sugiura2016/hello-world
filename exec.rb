@@ -6,6 +6,8 @@ class Fizzbuzz
 			puts 'fizz'
 		elsif number % 5 == 0
 			puts 'buzz'
+		elsif number % 7 == 0
+			puts 'GitHub'
 		else
 			puts number
 		end
